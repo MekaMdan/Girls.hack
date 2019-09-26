@@ -3,4 +3,5 @@ from . import views
 
 urlpatterns = [
     url(r'^students/$', views.StudentList.as_view(), name='student-list'),
+ 
 ]
